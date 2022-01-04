@@ -1,11 +1,16 @@
-* {
+body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
 }
 a {
   text-decoration: none;
+}
+#top-banner {
+  background-image: url(../Images/top-banner.png);
+  background-repeat: no-repeat;
 }
 .btn {
   border: none;
@@ -16,10 +21,10 @@ a {
 }
 section {
   display: flex;
-  margin: 0px 70px;
 }
 .half-width {
   width: 50%;
+  margin: 0px 70px;
 }
 .orange-color {
   color: orange;
