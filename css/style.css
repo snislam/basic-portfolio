@@ -1,6 +1,29 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  border: none;
+  background: linear-gradient(45deg, #ff6a4d 0%, #ff9672 100%);
+  color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+section {
+  display: flex;
+  margin: 0px 70px;
+}
+.half-width {
+  width: 50%;
+}
+.orange-color {
+  color: orange;
+}
+img {
+  width: 90%;
 }
