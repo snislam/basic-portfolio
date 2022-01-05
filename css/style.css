@@ -19,7 +19,7 @@ a {
   border-radius: 5px;
   padding: 10px 40px;
 }
-section {
+.flx {
   display: flex;
 }
 .half-width {
@@ -31,4 +31,37 @@ section {
 }
 img {
   width: 90%;
+}
+#dream-banner {
+  margin: 75px 0;
+  background-image: url(../Images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.ex-container {
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.box-design {
+  width: 40%;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px gray;
+}
+.web-dev-box-1 {
+  border-image: linear-gradient(red, blue);
+  border-image-slice: 50;
+  border-left: 5px solid;
+}
+.web-dev-box-2 {
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 50;
+  border-left: 5px solid;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
